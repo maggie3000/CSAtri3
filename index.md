@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Welcome to My Individual Github Page
 
 ### Table of Contents
