@@ -26,12 +26,15 @@ This page outlines my weekly plan for studying for the AP Exam. I will first tar
 - make a cram sheet
 
 ## Plan
+
 ### Week 1
 * create github page for AP Exam prep
 * identify the topics that I know well and the topics that I know the least (order them)
+
 ### Week 2
 * review old test corrections
 * begin cram sheet
 * watch collegeboard videos on 2D arrays
-# Week 3 (and beyond)
+
+### Week 3 (and beyond)
 * TBD as dates come closer
