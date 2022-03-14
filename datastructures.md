@@ -5,7 +5,7 @@
 ## Week 0 Challenges
 _March 7-11_
 
-# Challenge #1
+### Challenge #1
 *Menu*\
 This challenge was to create a menu that links to the other challenges. This requires user input from the Java console in replit. Additionally, a try and catch method is necessary to stop any errors in the input.\
 
@@ -22,7 +22,7 @@ try {
 Here, the code directs the user to choose a number from the menu.
 
 
-# Challenge #2
+### Challenge #2
 *IntByReference*\
 This challenge is to switch the values of the numbers if the numbers are not in least to greatest order. This requires a toString method to display in the output and for the completion of the swapToLowHighOrder method./
 
@@ -46,7 +46,7 @@ public void swapToLowHighOrder(IntByReference num2){
 Here, the code swaps the values with the usage of a temporary variable. The parameter for this method is an object.
 
 
-# Challenge #3
+### Challenge #3
 *Matrix*\
 This challenge is to print out the given matrices with the following output. This code requires printing the matrices regularly and in reverse order as well./
 
