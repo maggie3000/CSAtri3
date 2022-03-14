@@ -1,6 +1,8 @@
 {% include navigation.html %}
 
 # Tech Talk Notes
+In this section, I will take notes before and during tech talks about the topics that will be discussed in class as a group. I will come prepared with questions and present them to the next meeting.
+
 
 ## Tech Talk 1
 
