@@ -4,7 +4,7 @@
 
 <!--
 ## Week 1
-*WEEK 1 TOTAL SCORE:* ?/?
+**WEEK 1 TOTAL SCORE:** ?/?
 
 ### Team
 [Team Review Ticket]()\
@@ -18,7 +18,7 @@
 -->
 
 ## Week 0
-*WEEK 0 TOTAL SCORE:* 4.9/5
+**WEEK 0 TOTAL SCORE:** 4.9/5
 
 ### Team
 [Team Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/3)\
