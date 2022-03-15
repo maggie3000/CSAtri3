@@ -13,9 +13,9 @@
 ### Individual
 [Individual Review Ticket]()\
 *Individual Score* ?/?
--->
 
-<hr /> 
+<hr />
+-->
 
 ## Week 0
 *WEEK 0 TOTAL SCORE:* 4.9/5
