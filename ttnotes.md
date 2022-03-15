@@ -6,8 +6,10 @@ In this section, I will take notes before and during tech talks about the topics
 
 ## Tech Talk 0
 [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
+
 ### Data Structures
 Some common data structures that java uses to store information include: Array lists, hashmaps, and algorithms (such as recursion).
+
 ### Paradigms
 Paradigms are a strategy to be followed for writing software applications
 - *Imperative paradigms:* Uses statements to change a program’s state. Imperative programs are built from procedures and a series of commands to perform a task.
@@ -18,6 +20,7 @@ Paradigms are a strategy to be followed for writing software applications
 [Linked Lists](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-1:-Linked-Lists-Part-2)
 ### Linked Lists
 - linked lists are way of keeping and managing a list of Objects
+
 ### Queues
 - *FIFO:* first in first out
 - nodes
@@ -28,6 +31,7 @@ Paradigms are a strategy to be followed for writing software applications
     - *enqueue:* increases the queue from the tail node
     - *dequeue:* decreases the queue from the head node
 - the previous node or the last node is null if something isn't there
+
 ### Stacks
 - *LIFO:* last in first out
 - push and pop
