@@ -7,7 +7,7 @@ In this section, I will take notes before and during tech talks about the topics
 ## Tech Talk 0
 [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
 
-### Data Structures
+### [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
 Some common data structures that java uses to store information include: Array lists, hashmaps, and algorithms (such as recursion).
 
 ### Paradigms
