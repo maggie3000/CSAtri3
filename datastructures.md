@@ -7,7 +7,7 @@
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
 
 ## Week 1 Challenges
-_March 14-19_\
+_March 14-19_
 
 *Linked Lists:* ...\
 *Generic T:* ...
