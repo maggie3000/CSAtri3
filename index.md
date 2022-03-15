@@ -2,7 +2,7 @@
 
 # Welcome to My Individual Github Page
 
-<! --
+<!--
 ## Week 1
 *WEEK 1 TOTAL SCORE:* ?/?
 
@@ -13,7 +13,7 @@
 ### Individual
 [Individual Review Ticket]()\
 *Individual Score* ?/?
->
+-->
 
 <hr /> 
 
