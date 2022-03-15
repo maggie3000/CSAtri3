@@ -21,9 +21,9 @@ Paradigms are a strategy to be followed for writing software applications
 ### Queues
 - *FIFO:* first in first out
 - nodes
-      - *tail node:* the last object of the list
-      - *head node:* the first object of the list
-      - *current node:* must be kept track of for iteration
+    - *tail node:* the last object of the list
+    - *head node:* the first object of the list
+    - *current node:* must be kept track of for iteration
 - enqueue and dequeue
     - *enqueue:* increases the queue from the tail node
     - *dequeue:* decreases the queue from the head node
@@ -31,5 +31,5 @@ Paradigms are a strategy to be followed for writing software applications
 ### Stacks
 - *LIFO:* last in first out
 - push and pop
-    *push:* adds new node to the top of the stack
-    *pop:* removes node from the top of the stack
+   - *push:* adds new node to the top of the stack
+   - *pop:* removes node from the top of the stack
