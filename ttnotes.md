@@ -4,10 +4,9 @@
 In this section, I will take notes before and during tech talks about the topics that will be discussed in class as a group. I will come prepared with questions and present them to the next meeting.
 
 
-## Tech Talk 0
-[Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
+## Tech Talk 0 ([Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures))
 
-### [Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
+### Data Structures
 Some common data structures that java uses to store information include: Array lists, hashmaps, and algorithms (such as recursion).
 
 ### Paradigms
@@ -16,8 +15,8 @@ Paradigms are a strategy to be followed for writing software applications
 - *Object Oriented paradigms:* Uses classes as blueprints to make objects out of. These class structures can be reused, and Java follows Object Oriented Programming
 
 
-## Tech Talk 1
-[Linked Lists](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-1:-Linked-Lists-Part-2)
+## Tech Talk 1 ([Linked Lists](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-1:-Linked-Lists-Part-2))
+
 ### Linked Lists
 - linked lists are way of keeping and managing a list of Objects
 
