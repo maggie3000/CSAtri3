@@ -6,12 +6,30 @@
 [Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
 
+## Week 1 Challenges
+_March 14-19_\
+
+*Linked Lists:* ...\
+*Generic T:* ...
+
+### Challenge #1
+*Queue Add and Delete*\
+This challenge...
+
+### Challenge #2
+*Merge 2 Queues*\
+This challenge...
+
+### Challenge #3
+*Build Stack and reverse Queue Order*\
+This challenge...
+
 ## Week 0 Challenges
 _March 7-11_
 
 ### Challenge #1
 *Menu*\
-This challenge was to create a menu that links to the other challenges. This requires user input from the Java console in replit. Additionally, a try and catch method is necessary to stop any errors in the input.\
+This challenge was to create a menu that links to the other challenges. This requires user input from the Java console in replit. Additionally, a try and catch method is necessary to stop any errors in the input.
 
 Try and Catch:
 ```
@@ -28,7 +46,7 @@ Here, the code directs the user to choose a number from the menu.
 
 ### Challenge #2
 *IntByReference*\
-This challenge is to switch the values of the numbers if the numbers are not in least to greatest order. This requires a toString method to display in the output and for the completion of the swapToLowHighOrder method./
+This challenge is to switch the values of the numbers if the numbers are not in least to greatest order. This requires a toString method to display in the output and for the completion of the swapToLowHighOrder method.
 
 ToString Method:
 ```
@@ -52,7 +70,7 @@ Here, the code swaps the values with the usage of a temporary variable. The para
 
 ### Challenge #3
 *Matrix*\
-This challenge is to print out the given matrices with the following output. This code requires printing the matrices regularly and in reverse order as well./
+This challenge is to print out the given matrices with the following output. This code requires printing the matrices regularly and in reverse order as well.
 
 Output:
 ```
