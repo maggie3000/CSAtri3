@@ -54,6 +54,7 @@ public String toString(){
       return (String.format("%d", this.value));
     }
 ```
+The toString method helps the code to become readable.
 
 swapToLowHighOrderMethod:
 ```
@@ -104,6 +105,9 @@ public String toString(){
             if (matrix[i][j] != -1){
               numberString = numberString + matrix[i][j] + " ";
             }
+            else if(matrix[i][j] > 9){
+              returnStatement += Integer.toHexString(matrix[i][j]) + " "
+            }
             else{
               numberString = numberString + "  ";
             }
@@ -113,6 +117,7 @@ public String toString(){
       return numberString;
     }
 ```
+This toString method includes a nested for loop to interate through each row of the matrix and each value in each column in the matrix. Within the nested for loop, there are several conditional statements to meet the conditions for printing in a specific format in the console window. Additionally, the requirements state that the last few digits in the matrix must be in hexcode, so the `Integer.toHexString(matrix[i][j])` is used to accomplish this.
 
 Reverse method:
 ```
@@ -123,6 +128,9 @@ public String reverse(){
             if (matrix[i][j] != -1){
               numberString = numberString + matrix[i][j] + " ";
             }
+            else if(matrix[i][j] > 9){
+              returnStatement += Integer.toHexString(matrix[i][j]) + " "
+            }
             else{
               numberString = numberString + "  ";
             }
@@ -132,3 +140,4 @@ public String reverse(){
       return numberString;
     }
 ```
+This reverse method is essentially the same as the toString method displayed above except for the minor changes in the conditional statements. It interates backwards, rather than incrementing.
