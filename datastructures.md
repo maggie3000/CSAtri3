@@ -9,16 +9,17 @@
 ## Week 1 Challenges
 _March 14-19_
 
-Linked Lists: ...\
-Generic T: 
+Linked Lists: Type of list that has has linked nodes. These are nodes that are before or after. The nodes are null if there is nothing in them. Linked Lists are commonly used for queues and stacks.\
+Generic T: Represents any normal data type in Java. This can also be used for object types.
 
 ### Challenge #1
 **Queue Add and Delete**\
-This challenge...
+This challenge is to create an add and delete method for a queue. The delete method should remove the head from the queue because of the procedure outlined for queues (first in first out).
+
 
 ### Challenge #2
 **Merge 2 Queues**\
-This challenge...
+This challenge is to create a merge method that will merge 2 queues. This is similar to a merge sort because it makes the order of the queues for the 
 
 ### Challenge #3
 **Build Stack and reverse Queue Order**\
