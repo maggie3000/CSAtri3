@@ -9,8 +9,8 @@
 ## Week 1 Challenges
 _March 14-19_
 
-**Linked Lists:** ...\
-*Generic T:* ...
+Linked Lists: ...\
+Generic T: 
 
 ### Challenge #1
 **Queue Add and Delete**\
