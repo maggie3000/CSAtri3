@@ -16,14 +16,27 @@ Generic T: Represents any normal data type in Java. This can also be used for ob
 **Queue Add and Delete**\
 This challenge is to create an add and delete method for a queue. The delete method should remove the head from the queue because of the procedure outlined for queues (first in first out).
 
+Delete Method:
+```
+ // delete a new object at the end of a queue
+    public void delete() {
+        if (head == null)  // initial condition
+            this.head = this.tail = tail;
+        else {  // nodes in queue
+            this.head = this.head.getNext();
+        }
+    }
+```
+Here, this is a static method that sets the next node to the head because it removes the head from the beginning.
+
 
 ### Challenge #2
 **Merge 2 Queues**\
-This challenge is to create a merge method that will merge 2 queues. This is similar to a merge sort because it makes the order of the queues for the 
+This challenge is to create a merge method that will merge 2 queues. This is similar to a merge sort because it orders the numbers in the queue.
 
 ### Challenge #3
 **Build Stack and reverse Queue Order**\
-This challenge...
+This challenge is to create a Queue and reverse that queue through using a stack.
 
 ## Week 0 Challenges
 _March 7-11_
