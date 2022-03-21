@@ -2,6 +2,13 @@
 
 # Welcome to My Individual Github Page
 
+## Links
+[Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)\
+[Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
+
+
+<hr/>
+
 ## Week 1
 **WEEK 1 TOTAL SCORE:** ?/?
 
@@ -12,8 +19,6 @@
 ### Individual
 [Individual Review Ticket]()\
 *Individual Score* ?/?
-
-<hr />
 
 ## Week 0
 **WEEK 0 TOTAL SCORE:** 4.9/5
