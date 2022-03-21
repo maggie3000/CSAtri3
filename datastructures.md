@@ -3,7 +3,7 @@
 # Data Structures
 
 **Links:**
-[Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)
+[Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)\
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
 
 ## Week 1 Challenges
