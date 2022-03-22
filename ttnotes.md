@@ -36,3 +36,9 @@ Paradigms are a strategy to be followed for writing software applications
 - push and pop
    - **push:** adds new node to the top of the stack
    - **pop:** removes node from the top of the stack
+
+
+## Tech Talk 2 ([Calculator](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-2:-Calculator))
+
+### Reverse Polish Notation (RPM)
+...
