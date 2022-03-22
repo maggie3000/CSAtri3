@@ -2,10 +2,9 @@
 
 # Welcome to My Individual Github Page
 
-## Links
+## Links\
 [Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)\
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
-
 
 <hr/>
 
