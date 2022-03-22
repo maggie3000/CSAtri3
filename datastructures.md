@@ -6,6 +6,23 @@
 [Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)\
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
 
+## Week 2 Challenges
+_March 21-26_
+
+### Challenge #1
+**Calculator**\
+This challenge is to create a calculator by changing RPM expressions to a calculation. This should be implemented using a stack.
+Some additional tips:
+- use double conversion 
+- should be able to support decimals in the input
+- write power of operation
+- squareroot in free text
+Some additional requirements:
+- Build a calculator to process expressions and ultimately change RPN to a calculation.
+- Build in Power of operator ^: 2 ^ 1 = 2, 2 ^ 2 = 4, 2 ^ 3 = 8
+- Extra credit. Build variable assignment and evaluation into your expressions (a = 2; a + 1).
+- Extra credit. Investigate Wikipedia article and pseudo code and try adding a SQRT(). Try building Pythagoras expression.
+
 ## Week 1 Challenges
 _March 14-19_
 
