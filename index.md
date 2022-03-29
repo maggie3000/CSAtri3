@@ -16,7 +16,7 @@
 *Team Score:* 3/3
 
 ### Individual
-[Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/30)
+[Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/30)\
 *Individual Score:* 1.75/2
 
 ## Week 1
