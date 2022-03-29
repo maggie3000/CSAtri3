@@ -9,15 +9,15 @@
 <hr/>
 
 ## Week 2
-**WEEK 2 TOTAL SCORE:** ???/5
+**WEEK 2 TOTAL SCORE:** 4.75/5
 
 ### Team
-[Team Review Ticket]()\
-*Team Score:* ???/3
+[Team Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/30)\
+*Team Score:* 3/3
 
 ### Individual
 [Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/30)
-*Individual Score:* ???/3
+*Individual Score:* 1.75/2
 
 ## Week 1
 **WEEK 1 TOTAL SCORE:** 4.9/5
