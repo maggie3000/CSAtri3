@@ -20,8 +20,65 @@ Some additional tips:
 Some additional requirements:
 - Build a calculator to process expressions and ultimately change RPN to a calculation.
 - Build in Power of operator ^: 2 ^ 1 = 2, 2 ^ 2 = 4, 2 ^ 3 = 8
-- Extra credit. Build variable assignment and evaluation into your expressions (a = 2; a + 1).
-- Extra credit. Investigate Wikipedia article and pseudo code and try adding a SQRT(). Try building Pythagoras expression.
+- Extra credit: Build variable assignment and evaluation into your expressions (a = 2; a + 1).
+- Extra credit: Investigate Wikipedia article and pseudo code and try adding a SQRT(). Try building Pythagoras expression.
+
+Method for converting RPN to result:
+```
+// Takes RPN and produces a final result
+    private void rpnToResult() {
+        // Stack used to hold calculation while process RPN
+        Stack calculation = new Stack();
+
+        // for loop to process RPN
+        for (String token: reverse_polish){
+            // If the token is a number
+            if(!isOperator(token) && !isSeperator(token)){
+                // Push number to stack
+                calculation.push(token);
+            }
+            // else
+            else{
+                // Pop the two top entries
+                Double token1 = Double.valueOf((String)calculation.pop());
+                Double token2 = Double.valueOf((String)calculation.pop());
+
+                // Based off of Token operator calculate result
+                Double result = 0.0;
+
+                switch (token) {
+                    case "+":
+                        result = token1 + token2;
+                        break;
+                    case "-":
+                        result = token2 - token1;
+                        break;
+                    case "*":
+                        result = token1 * token2;
+                        break;
+                    case "/":
+                        result = token2 / token1;
+                        break;
+                    case "%":
+                        result = token1 % token2;
+                        break;
+                    case "^":
+                        Double value = Double.valueOf(token2);
+                        for(int i = 0; i < token1 - 1; i++){
+                            value *= token2;
+                        }
+                        result = value;
+                }
+
+                // Push result back onto the stack
+                calculation.push(String.valueOf(result));
+            }
+        }
+        // Pop final result and set as final result for expression
+        this.result = Double.valueOf((String) calculation.pop());
+    }
+```
+First, the token is identifies as either a number or an operator/seperator. In the beginning, the popped values are represented in the a double variable type. Additionally, this method utilizes the switch method and it defines the procedures to follow for each case. I also added the implementation of the case for an exponent with the use of a for loop.
 
 ## Week 1 Challenges
 _March 14-19_
