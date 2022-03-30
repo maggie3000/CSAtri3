@@ -40,5 +40,25 @@ Paradigms are a strategy to be followed for writing software applications
 
 ## Tech Talk 2 ([Calculator](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-2:-Calculator))
 
-### Reverse Polish Notation (RPM)
-...
+### Reverse Polish Notation (RPN)
+- used when calculators were first developing
+- syntax is to input the numbers first then input the operator next
+- this will calculate using a stack
+
+
+## Tech Talk 3 ([Sorts](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-3:-Sorts))
+
+### Selection Sort
+- linear sort algorithm that sorts elements from index [0] to [n-1]
+- has a second inner loop inside the loop that compares two elements and notes which is the smallest, after cycling to the end, it swaps the smallest number to the lowest element in the round
+
+### Insertion Sort
+- linear sort algorithm that sorts elements from index [0] to [n-1]
+- the inner loop of the algorithm finds the gap (which is the insertion point for the next item) and inserts the element
+- each inner loop leaves the list partially sorted according to the outer loops index
+
+### Merge Sort
+- divide-and-conquer algorithm, not linear (like the selection sort or the insertion sort)
+- involves cascading and inverted assembly
+- divides the array into two different groups recursively, until it gets only two to compare, swaps if necessary
+- then exits recursion and puts each split group back together using a sorted comparison
