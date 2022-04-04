@@ -6,6 +6,34 @@
 [Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)\
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
 
+## Week 3 Challenges
+_May 28 to April 1_ 
+
+### Challenge #1
+
+### Selection Sort
+- big O complexity: O(n2)
+- linear sort algorithm that sorts elements from index [0] to [n-1]
+- has a second inner loop inside the loop that compares two elements and notes which is the smallest, after cycling to the end, it swaps the smallest number to the lowest element in the round
+
+### Insertion Sort
+- big O complexity: O(n2)
+- linear sort algorithm that sorts elements from index [0] to [n-1]
+- the inner loop of the algorithm finds the gap (which is the insertion point for the next item) and inserts the element
+- each inner loop leaves the list partially sorted according to the outer loops index
+
+### Bubble Sort
+- big O complexity: O(n2)
+- consecutively swaps elements in an array until list is sorted
+
+### Merge Sort
+- big O complexity: O(nLogn)
+- divide-and-conquer algorithm, not linear (like the selection sort or the insertion sort)
+- involves cascading and inverted assembly
+- divides the array into two different groups recursively, until it gets only two to compare, swaps if necessary
+- then exits recursion and puts each split group back together using a sorted comparison
+
+
 ## Week 2 Challenges
 _March 21-26_
 
