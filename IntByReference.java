@@ -1,4 +1,8 @@
 /*
+TITLE: Week 0 Challenge #2
+AUTHOR: Maggie Killada
+
+DIRECTIONS:
 Write a Java Class with Method(s) to swap two numbers and add to Menu.
 Key learning 1: Pass-by-Value and Pass-by-Reference are two key concepts when passing parameters through code,
 to do a Swap you will need to consider changing value in the referenced objects.
@@ -6,6 +10,7 @@ Key learning 2: Swap is a fundamental concept when sorting data.
 Key learning 3: start working with toString method, this method is used to represent data in Class using a formatted String.
 Here is some starter code on creating a Class to swap values by reference by creating your own data type...
  */
+
 
 
 public class IntByReference {
@@ -56,8 +61,7 @@ public class IntByReference {
 
 
 /*
-SAMPLE OUTPUT
-=============
+SAMPLE OUTPUT:
 
 Before: 21 16
 After: 16 21
