@@ -38,8 +38,7 @@ class Menu {
     menu.put(3, new Menu("Merged Queue", () -> MergedQueue.main(null)));
     menu.put(4, new Menu("Reverse Queue", () -> ReverseQueue.main(null)));
     menu.put(5, new Menu("Calculator", () -> Calculator.main(null)));
-
-
+    menu.put(6, new Menu("Sorts", () -> Sorts.main(null)));
 
 
     System.out.println("Menu:");

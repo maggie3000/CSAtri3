@@ -13,7 +13,5 @@ public class BubbleSort implements Sort {
                     data.set(j, data.get(j+1));
                     data.set(j+1, temp);
                 }
-
-
     }
 }
