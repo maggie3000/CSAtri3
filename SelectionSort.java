@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// Java program for implementation of Merge Sort
+// Java program for implementation of Selection Sort
 public class SelectionSort extends Sort {
 
     public void SortData(ArrayList<Integer> data) {

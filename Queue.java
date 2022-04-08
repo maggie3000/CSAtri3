@@ -25,7 +25,7 @@ public class Queue<T> implements Iterable<T> {
         }
     }
 
-    // delete a new object at the end of a queue
+    // delete a new object at the front of a queue
     public void delete() {
         if (head == null)  // initial condition
             this.head = this.tail = tail;
