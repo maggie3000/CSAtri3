@@ -49,7 +49,7 @@ Some additional tips:
 - should be able to support decimals in the input
 - write power of operation
 - squareroot in free text
-- 
+
 Some additional requirements:
 - Build a calculator to process expressions and ultimately change RPN to a calculation.
 - Build in Power of operator ^: 2 ^ 1 = 2, 2 ^ 2 = 4, 2 ^ 3 = 8
@@ -143,7 +143,31 @@ This challenge is to create a merge method that will merge 2 queues. This is sim
 
 ### Challenge #3
 **Build Stack and reverse Queue Order**\
-This challenge is to create a Queue and reverse that queue through using a stack.
+This challenge is to create a Queue and reverse that can reverse a queue through using another stack.
+
+Main method:
+```
+public static void main(String[] args) {
+        //creating queue
+        Queue queue = new Queue<Integer>();
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        //printing queue
+        for (Object data : queue)
+            System.out.print(data + " ");
+        System.out.println("");
+
+
+        Stack stack = new Stack();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        System.out.println(stack.toString());
+    }
+```
+This creates a new queue and utilizes the queue class from challenge #1.
 
 
 ## Week 0 Challenges
