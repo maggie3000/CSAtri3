@@ -6,6 +6,7 @@
 [Github Repo](https://github.com/maggie3000/CSAindividualrepoTRI3)\
 [Replit Runtime](https://replit.com/@MaggieKillada/CSAindividualrepoTRI3?v=1)
 
+
 ## Week 3 Challenges
 _May 28 to April 1_ 
 
@@ -108,6 +109,7 @@ Method for converting RPN to result:
 ```
 First, the token is identifies as either a number or an operator/seperator. In the beginning, the popped values are represented in the a double variable type. Additionally, this method utilizes the switch method and it defines the procedures to follow for each case. I also added the implementation of the case for an exponent with the use of a for loop.
 
+
 ## Week 1 Challenges
 _March 14-19_
 
@@ -129,8 +131,7 @@ Delete Method:
         }
     }
 ```
-Here, this is a static method that sets the next node to the head because it removes the head from the beginning.
-
+Here, this is a static delete method for the queue that sets the next node to the head because it removes the head from the beginning.
 
 ### Challenge #2
 **Merge 2 Queues**\
@@ -140,12 +141,26 @@ This challenge is to create a merge method that will merge 2 queues. This is sim
 **Build Stack and reverse Queue Order**\
 This challenge is to create a Queue and reverse that queue through using a stack.
 
+
 ## Week 0 Challenges
 _March 7-11_
 
 ### Challenge #1
 **Menu**\
 This challenge was to create a menu that links to the other challenges. This requires user input from the Java console in replit. Additionally, a try and catch method is necessary to stop any errors in the input.
+
+Hashmap:
+```
+Map<Integer, Menu> menu = new HashMap<>();
+    menu.put(0, new Menu("Int By Reference", () -> IntByReference.main(null)));
+    menu.put(1, new Menu("Matrix", () -> Matrix.main(null)));
+    menu.put(2, new Menu("Queue", () -> QueueTester.main(null)));
+    menu.put(3, new Menu("Merged Queue", () -> MergedQueue.main(null)));
+    menu.put(4, new Menu("Reverse Queue", () -> ReverseQueue.main(null)));
+    menu.put(5, new Menu("Calculator", () -> Calculator.main(null)));
+    menu.put(6, new Menu("Sorts", () -> Sorts.main(null)));
+```
+This creates a hashmap that has key and value pairs. Here, we are adding the key and value pairs with the title of the classes and the value being the main method.
 
 Try and Catch:
 ```
@@ -157,8 +172,7 @@ try {
       System.out.println("Please enter a number listed in the menu.");
     }
 ```
-Here, the code directs the user to choose a number from the menu.
-
+This try and catch helps define the procedure for when the user inputs a number that is not included in the menu.
 
 ### Challenge #2
 **IntByReference**\
@@ -170,7 +184,7 @@ public String toString(){
       return (String.format("%d", this.value));
     }
 ```
-The toString method helps the code to become readable.
+The toString method helps the code to be loaded in a readable format.
 
 swapToLowHighOrderMethod:
 ```
