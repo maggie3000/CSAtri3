@@ -12,6 +12,8 @@ _May 28 to April 1_
 
 ### Challenge #1
 
+https://dsblack0.github.io/sam-tri3/sortsImplementation#analytics
+
 ### Selection Sort
 - big O complexity: O(n2)
 - linear sort algorithm that sorts elements from index [0] to [n-1]
