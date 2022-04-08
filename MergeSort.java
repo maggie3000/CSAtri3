@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 // Java program for implementation of Merge Sort
-public class MergeSort implements Sort {
+public class MergeSort extends Sort {
 
     public void SortData(ArrayList<Integer> data) {
 

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 // Java program for implementation of Bubble Sort
-public class BubbleSort implements Sort {
+public class BubbleSort extends Sort {
 
        public void SortData(ArrayList<Integer> data) {
         int n = data.size();
