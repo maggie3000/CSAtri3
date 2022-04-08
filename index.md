@@ -8,6 +8,13 @@
 
 <hr/>
 
+## Week 3
+**WEEK 3 TOTAL SCORE:** 4.9/5
+
+### Individual
+[Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/30)\
+*Individual Score:* 4.9/5
+
 ## Week 2
 **WEEK 2 TOTAL SCORE:** 4.75/5
 
