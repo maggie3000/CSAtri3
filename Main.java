@@ -40,7 +40,6 @@ class Menu {
     menu.put(5, new Menu("Calculator", () -> Calculator.main(null)));
     menu.put(6, new Menu("Sorts", () -> Sorts.main(null)));
 
-
     System.out.println("Menu:");
     for (Map.Entry<Integer, Menu> pair : menu.entrySet()) {
       System.out.println(pair.getKey() + " ==> " + pair.getValue().getTitle());

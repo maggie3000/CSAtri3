@@ -29,7 +29,6 @@ public class Sorts {
         Sort bubblesort = new BubbleSort();
         bubblesort.SortData(data);
 
-
         Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
 

@@ -6,16 +6,6 @@ DIRECTIONS:
 Build a stack and use it to reverse the order of a Queue. 
 FYI, here is an implementation of Stack without Generic T and Iterable.
 (https://github.com/nighthawkcoders/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/utility/LinkedLists/Stack.java)
-*/
-
-/*
-TITLE: Week 1 Challenge #3
-AUTHOR: Maggie Killada
-
-DIRECTIONS:
-Build a stack and use it to reverse the order of a Queue. 
-FYI, here is an implementation of Stack without Generic T and Iterable.
-(https://github.com/nighthawkcoders/nighthawk_csa/blob/master/src/main/java/com/nighthawk/csa/utility/LinkedLists/Stack.java)
 //(Head) 1 -> 2 -> 3 -> nil
 // Print out the following:
 //1 2 3
