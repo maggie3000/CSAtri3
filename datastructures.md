@@ -12,20 +12,27 @@ _May 28 to April 1_
 
 ### Challenge #1
 
-https://dsblack0.github.io/sam-tri3/sortsImplementation#analytics
+####
 
-### Selection Sort
+| **Sort Type** | **Big O Complexity** | **Time** | **# Comparisons** | **# Swaps** |
+| ---       | ---              | ---  | ---           | ---     |
+| Bubble | O(n^2) | 18928470 | 12497500 | 6187699 |
+| Selection | O(n^2) | 18795660 | 12497501 | 4989 |
+| Insertion | O(n^2) | 501900 | 4989 | 4991 |
+| Merge | O(nlog(n)) | 194455 | 16392 | 0 |
+
+#### Selection Sort
 - big O complexity: O(n2)
 - linear sort algorithm that sorts elements from index [0] to [n-1]
 - has a second inner loop inside the loop that compares two elements and notes which is the smallest, after cycling to the end, it swaps the smallest number to the lowest element in the round
 
-### Insertion Sort
+#### Insertion Sort
 - big O complexity: O(n2)
 - linear sort algorithm that sorts elements from index [0] to [n-1]
 - the inner loop of the algorithm finds the gap (which is the insertion point for the next item) and inserts the element
 - each inner loop leaves the list partially sorted according to the outer loops index
 
-### Bubble Sort
+#### Bubble Sort
 - big O complexity: O(n2)
 - consecutively swaps elements in an array until list is sorted
 
