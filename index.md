@@ -8,11 +8,18 @@
 
 <hr/>
 
+## Week 4
+**WEEK 4 TOTAL SCORE:** 9.5/10
+
+### Individual
+[Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/38)\
+*Individual Score:* 9.5/10
+
 ## Week 3
 **WEEK 3 TOTAL SCORE:** 4.9/5
 
 ### Individual
-[Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/30)\
+[Individual Review Ticket](https://github.com/dsblack0/stickers_for_charity/issues/36)\
 *Individual Score:* 4.9/5
 
 ## Week 2
