@@ -43,50 +43,51 @@ This page outlines my plan for studying for the AP Exam. I will target the topic
 ## Plan
 
 ### Spring Break
-- [] create study guide with key notes
+- [ ] create study guide with key notes
 - [x] watch unit 1 collegeboard videos
-- [] review unit 1 collegeboard multiple choice
-- [] add notes about unit 1
+- [ ] review unit 1 collegeboard multiple choice
+- [ ] add notes about unit 1
 
 ### Week 5
 #### 4/18
-- [] watch unit 2 collegeboard videos
-- [] review unit 2 collegeboard multiple choice
-- [] add notes about unit 2
-- [] watch [AP live review 1](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch unit 2 collegeboard videos
+- [ ] review unit 2 collegeboard multiple choice
+- [ ] add notes about unit 2
+- [ ] watch [AP live review 1](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 
 #### 4/19
-- [] watch unit 3 collegeboard videos
-- [] review unit 3 collegeboard multiple choice
-- [] add notes about unit 3
-- [] watch [AP live review 2](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch unit 3 collegeboard videos
+- [ ] review unit 3 collegeboard multiple choice
+- [ ] add notes about unit 3
+- [ ] watch [AP live review 2](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] 2015 MCQ practice test (in class)
 
 #### 4/20
-- [] watch unit 4 collegeboard videos
-- [] review unit 4 collegeboard multiple choice
-- [] add notes about unit 4
-- [] watch [AP live review 3](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch unit 4 collegeboard videos
+- [ ] review unit 4 collegeboard multiple choice
+- [ ] add notes about unit 4
+- [ ] watch [AP live review 3](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 
 #### 4/21
-- [] watch unit 5 collegeboard videos
-- [] review unit 5 collegeboard multiple choice
-- [] add notes about unit 5
-- [] watch [AP live review 4](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch unit 5 collegeboard videos
+- [ ] review unit 5 collegeboard multiple choice
+- [ ] add notes about unit 5
+- [ ] watch [AP live review 4](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 - 
 #### 4/22
-- [] watch unit 6 collegeboard videos
-- [] review unit 6 collegeboard multiple choice
-- [] add notes about unit 6
+- [ ] watch unit 6 collegeboard videos
+- [ ] review unit 6 collegeboard multiple choice
+- [ ] add notes about unit 6
 
 ### Week 6
 #### 4/25
-- [] watch [AP live review 5](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch [AP live review 5](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 #### 4/26
-- [] watch [AP live review 6](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch [AP live review 6](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 #### 4/27
-- [] watch [AP live review 7](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch [AP live review 7](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 #### 4/28
-- [] watch [AP live review 8](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [ ] watch [AP live review 8](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 #### 4/29
 
 ### Week 7
