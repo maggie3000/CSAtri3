@@ -27,7 +27,7 @@ This page outlines my plan for studying for the AP Exam. I will target the topic
         -  Q#4: 2D Array
 
 **TOPICS (ordered by weighting):**
-| Unit | Exam Weighting (MC) | Familiarity (1-5most) |
+| **Unit** | **Exam Weighting (MC)** | **Familiarity (1-5most)** |
 | ------ | ----------- | ------------ |
 | UNIT 1: Primitive Types | 2.5-5% | 5 |
 | UNIT 2: Using Objects | 5-7.5% |  5 |
