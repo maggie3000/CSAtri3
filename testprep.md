@@ -43,10 +43,10 @@ This page outlines my plan for studying for the AP Exam. I will target the topic
 ## Plan
 
 ### Spring Break
-- [ ] create study guide with key notes
-- [x] watch unit 1 collegeboard videos
-- [ ] review unit 1 collegeboard multiple choice
-- [ ] add notes about unit 1
+[ ] create study guide with key notes
+[x] watch unit 1 collegeboard videos
+[ ] review unit 1 collegeboard multiple choice
+[ ] add notes about unit 1
 
 ### Week 5
 #### 4/18
