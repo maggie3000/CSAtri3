@@ -65,7 +65,6 @@ isAdult = ad;
     - to call a method use the object name "dot" method name `lamp.turnOn();`
     - methods can also be overloaded
     - void methods do not return any value while a non-void methods do and they specify the return type in the signature
-- create a string object `String name1 = new String("Abel");` these are immutable
 - concatenation is the joining of data and the operators used to concatenate are `+` and `+-`
 - escape sequences
     - `\"` prints a double character quotation
@@ -75,5 +74,22 @@ isAdult = ad;
     - `int indexOf(String str)` returns the first index of str: returns -1 if not found (starts at 0)
     - `string substring(int from, int to)` returns the substring from the beginning of the index from and ending at index to -1
     - `string substring(int from)` returns substring(fron, length())
-    - `boolean equals(String other)`
-    - `...`
+    - `boolean equals(String other)` returns true if this is equal to other, returns false otherwise
+    - `int compareTo(String other)` return a value <0 if this is less than other; returns zero if this is equal to other; returns a value >0 if this is greater than other
+- wrapper classes
+    - create a string object `String name1 = new String("Abel");` these are immutable
+    - create an integer object `Integer num1 = new Integer(157);`
+    - create a double object `Double score1 = new Double(32.78);`
+- math class
+    - `static int abs(int x)` returns the absolute value of an int value
+    - `static double abs(double x)` returns the absolute value of a double value
+    - `static double pow(double base, double exponent)` returns the value of the first parameter raised to the second parameter
+    - `static double sqrt(double x)` returns the positive square root of a double value
+    - `static double random(double x)` returns a double value greater than or equal to 0.0 and less that 1.0
+    - `Math.random()` returns a double value greater than or equal to 0.0 and less than 1.0
+        - `System.out.println(Math.random());` sample output: `0.243295832740823`
+        - `System.out.println(Math.random()*10);` sample output: `5.66065679203163`
+        - `System.out.println((int)(Math.random()*100);` output: `0-99(inclusive) or 0-100(exclusive)`
+        - `System.out.println((int)(Math.random()*100+1);` output: `0-100(inclusive)`
+
+## UNIT 3: Boolean Expressions and if Statements
