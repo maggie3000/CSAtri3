@@ -263,3 +263,20 @@ Otherwise, narrow it to the upper half
 Merge Sort:
 The merge() function is used for merging two halves
 The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one
+
+    
+## AP EXAM KEY NOTES
+### FRQ #1: Arrays
+All Array and 2D array questions will have similar patterns...
+1. 1D array int[] arr = { 1, 2, 3, 4, 5 }
+2. 2D array int[][] arr2D = { { 1, 2, 3, 4, 5 },
+                                  { 2, 3, 4, 5, 6 } }
+3. Arrays dimensions are not mutable, but can be established with variable sizes using "new"
+                int[] arr = new int[rows]
+                int[][] arr2D = new int[rows][cols]
+4. All iterations can use enhanced or conventional for loops, these apply to both 1D and 2D
+                for (int num : arr) { ... }  // enhanced, used when index is not required
+                for (int i = 0; i < arr.length; i++) { ... } // conventional, using arr.length to restrict i
+5. Same array comparisons (two indexes), bubble sort like adjacent comparison
+                for(int i = 0; i < sumsLength - 1; i++) {  // observe minus
+                    for (int j = i + 1; j < sumsLength; j++) { // observe j = i + 1, to offset comparisons
