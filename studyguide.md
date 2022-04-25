@@ -93,3 +93,173 @@ isAdult = ad;
         - `System.out.println((int)(Math.random()*100+1);` output: `0-100(inclusive)`
 
 ## UNIT 3: Boolean Expressions and if Statements
+Comparison of string objects must be handled using string methods NOT using boolean expressions
+.equal
+.compareTo
+<= → less than
+>= → greater than
+!= → false
+== → true
+
+## UNIT 4: Iteration
+"for" loops and "while" loops
+
+## UNIT 5: Writing Classes
+Object:
+Instance of a class
+Constructor:
+Has no return value
+Has the same name as the class that it inside
+Always public
+Anatomy of a Class:
+Private instance variables
+Restrict access (read-only)
+Option to provide validation checks
+Default constructor
+Has no parameters
+For strings, parenthesis are empty
+For numbers, set to 0
+For boolean types, set to null
+Overloaded constructor
+Has different parameters
+Accessor methods/functions
+Always public
+Mutator methods/functions
+Access Modifiers:
+Public access modifiers
+Have no restrictions on access
+Other classes can access
+Private access modifiers
+Restriction on access
+Only access in given class
+Encapsulation:
+Wrap the data (variables) and code that acts on the data (methods) into one unit (class)
+“Has-A”:
+Each instance of a class object “has-a” private instance variable
+Comments:
+Ignored by compilers/interpreters
+Help make code readable
+Prevent execution when testing alternative code
+3 types of comments
+// single line comment
+/* multi-line comment */
+/** documentation to create Javadoc **/
+
+## UNIT 6: Array
+Data structure used to implement a collection (list) of primitive or object reference data
+An element is a single value in an array
+The index of the element is the position of the element in the array
+In java, the first element in an array is 0
+The length of an array is the number of elements in the array
+Length is a public final data member of the array
+Since length is public, we can access it in any class
+Since length is final, we cannot change an array’s length after it has been created
+In java, the last element of an array named list is at index list.length-1
+Using initializer list:
+Elements of an array are initialized with a specific value based on the type of elements
+Elements of type int are initialized to the reference value null
+Elements of type double are intialized to 0.0
+Elements of type boolean are initialized to false
+
+## UNIT 7: Arraylist
+Need to import the command import java.util.ArrayList;
+Array vs. ArrayList
+Array
+Array List
+Fixed length
+Fundamental java feature
+An object with no methods
+Not as flexible
+Can store primitive data
+Resizable list
+Part of a framework
+A class with many methods
+Is designed to be flexible
+Not designed to store primitives
+Is slightly slower than arrays
+Can only be used with an import statement
+ArrayLists are collections of *object reference data*
+ArrayLists are mutable (they can be changed after they’re defined!)
+ArrayLists size can be changed once initialized
+On the other hand, arrays are Static in size, once initialized, they cannot be changed
+Creating an ArrayList:
+ArrayList<DataType> variableName;
+ArrayList<DataType> variableName = new ArrayList<DataType>();
+ArrayList<DataType> variableName = new ArrayList<DataType>(n);
+DataType can be any nonprimitive data type!
+n is the initial number of elements in the ArrayList
+Wrapper Class Data Types:
+ArrayList objects only store references to objects, not primitive values, so the workaround is a Wrapper class
+A Wrapper class stores primitive values as objects
+Primitive Data Types
+Wrapper Data Types
+boolean
+char
+double
+int
+Boolean
+Character
+Double
+Integer
+ArrayList Methods:
+ArrayList<Integer> a1 = new ArrayList<Integer>();
+a1.size() returns the number of elements in the list
+a1.add(5) adds another element with the value of 5 to the end of the list
+a1.add(2, 5) adds another element with the value of 5 at an index of 2 in the list. Every element that was at an index of 2 or more previously gets shifted over to the right
+a1.remove(2) removes the element at an index of 2
+a1.remove() can also return a variable! This means we can do:
+Integer thatOneThingWeRemoved = a1.remove(2);
+System.out.println(thatOneThingWeRemoved);
+a1.set(2, 5) sets the element at an index of 2 to 5
+a1.set also returns the previous value at that index
+a1.get(2) returns the element at an index of 2
+
+
+## UNIT 8: 2D Array
+2D Arrays:
+Data split into rows and columns
+Row indicates student
+Column indicates test
+Declaring 2D Arrays:
+Declaring a 1D array
+DataType [ ] name
+Declaring a 2D array
+DataType [ ] [ ] name
+Grades example
+int [ ] [ ] grades
+Initializing a 2D array
+new DataType [r] [c]
+new int [7] [4]
+Set of initializer lists
+{ {“Alice”, “Rob”, “Cody”}, {“Robin”, “Becky”, “Kisha”} }
+For pre-initialized array, 
+Number of rows is: arrayName.length
+Number of columns is: arrayName[i].length
+Looping in 2D Arrays:
+In a 1D array, we could use a for loop or a while loop to go through the array
+In 2D arrays, we need 2 nested for loops
+Ex.
+for (firstDimension traversal conditions) {
+  for (secondDimension traversal conditions) {
+    System.out.print(item + " ");
+  }
+}
+System.out.println();
+
+## UNIT 9: Inheritance
+Inheritance and Polymorphism:
+Superclasses has common attributes and methods of subclasses which they can call upon without repeating code and/or modify
+Subclasses extends superclasses, has an “”is-a” relationship
+Super keyword can be used to call superclass’s constructor and methods
+Constructors aren’t inherited, so if not explicitly written, java inserts super() in subclass constructor
+Subclasses can override methods inherited from superclass
+
+## UNIT 10: Recursion
+Binary Sort:
+Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array
+If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half
+Otherwise, narrow it to the upper half
+ Repeatedly check until the value is found or the interval is empty
+Merge Sort:
+The merge() function is used for merging two halves
+The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one
