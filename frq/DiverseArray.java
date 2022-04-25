@@ -1,25 +1,9 @@
 /*
 Maggie Killada
-AP CSA 2015 FRQ
+AP CSA 2015 FRQ #1
 */
 
 package src;
-
-// DiverseArray learnings
-/* All Array and 2D array questions will have similar patterns
-    1. 1D array int[] arr = { 1, 2, 3, 4, 5 }
-    2. 2D array int[][] arr2D = { { 1, 2, 3, 4, 5 },
-                                  { 2, 3, 4, 5, 6 } }
-    3. Arrays dimensions are not mutable, but can be established with variable sizes using "new"
-                int[] arr = new int[rows]
-                int[][] arr2D = new int[rows][cols]
-    4. All iterations can use enhanced or conventional for loops, these apply to both 1D and 2D
-                for (int num : arr) { ... }  // enhanced, used when index is not required
-                for (int i = 0; i < arr.length; i++) { ... } // conventional, using arr.length to restrict i
-    5. Same array comparisons (two indexes), bubble sort like adjacent comparison
-                for(int i = 0; i < sumsLength - 1; i++) {  // observe minus
-                    for (int j = i + 1; j < sumsLength; j++) { // observe j = i + 1, to offset comparisons
- */
 
 public class DiverseArray {
     public static int arraySum(int[] arr) {
