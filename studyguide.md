@@ -9,8 +9,8 @@
 - `System.out.print()` and `System.out.println()` will print to console, however println will print the next line after on a new line in console
 - a string literal is enclosed in double quotes
 - 3 types of errors
-    - syntax.compilation error: when you type the code wrong, like a typo
-    - exception: when the process terminates unexpectedly (ex. attempting to divide by 0)
+    - **syntax/compilation** error: when you type the code wrong, like a typo
+    - **exception**: when the process terminates unexpectedly (ex. attempting to divide by 0)
     - logic error: program runs, but not as intended (ex. using a - instead of a + to add)
 - primitive types
     - boolean: true/false
@@ -93,16 +93,30 @@ isAdult = ad;
         - `System.out.println((int)(Math.random()*100+1);` output: `0-100(inclusive)`
 
 ## UNIT 3: Boolean Expressions and if Statements
-Comparison of string objects must be handled using string methods NOT using boolean expressions
-.equal
-.compareTo
-<= → less than
->= → greater than
-!= → false
-== → true
+- Comparison of string objects must be handled using string methods NOT using boolean expressions
+    - `.equal` is to set equal to
+    - `.compareTo` is to compare to string objects
+- `<` → less than
+- `>` → greater than
+- `<=` → less than or equal to
+- `>=` → greater than or equal to
+- `!=` → false
+- `==` → true
+- if statements
+    - one way if-statements
+    ```
+    public static void String main(String[] args){
+        int myAge = 16;
+        if (age >= 16){
+            System.out.println("You can learn to drive a car.");
+            age++;
+        }
+        System.out.println("On your next birthday, you will be" + age + ".");
+    }
+    ```
 
 ## UNIT 4: Iteration
-"for" loops and "while" loops
+- "for" loops and "while" loops
 
 ## UNIT 5: Writing Classes
 Object:
