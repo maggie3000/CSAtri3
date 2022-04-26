@@ -25,10 +25,10 @@ public class Sorts {
         for (int i = 0; i < size; i++) {
             data.add((int)(Math.random() * (size+1)));
         }
+        System.out.println("Bubble Sort");
         // use Inheritance and Polymorphism to replace data.sort with your own algorithm
         Sort bubblesort = new BubbleSort();
         bubblesort.SortData(data);
-
         Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
 
@@ -38,10 +38,25 @@ public class Sorts {
         for (int i = 0; i < size; i++) {
             data.add((int)(Math.random() * (size+1)));
         }
+        System.out.println(" ");
+        System.out.println("Merge Sort");
         // use Inheritance and Polymorphism to replace data.sort with your own algorithm
         Sort mergesort = new MergeSort();
         mergesort.SortData(data);
+        end = Instant.now();    // time capture -- end
+        this.timeElapsed = Duration.between(start, end);
 
+        //selection sort
+        start = Instant.now();  // time capture -- start
+        // build an array
+        for (int i = 0; i < size; i++) {
+            data.add((int)(Math.random() * (size+1)));
+        }
+        System.out.println(" ");
+        System.out.println("Selection Sort");
+        // use Inheritance and Polymorphism to replace data.sort with your own algorithm
+        Sort selectionsort = new SelectionSort();
+        selectionsort.SortData(data);
         end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
 
@@ -51,10 +66,11 @@ public class Sorts {
         for (int i = 0; i < size; i++) {
             data.add((int)(Math.random() * (size+1)));
         }
+        System.out.println(" ");
+        System.out.println("Insertion Sort");
         // use Inheritance and Polymorphism to replace data.sort with your own algorithm
-        Sort selectionsort = new SelectionSort();
-        selectionsort.SortData(data);
-
+        Sort insertionsort = new InsertionSort();
+        insertionsort.SortData(data);
         end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
     }

@@ -9,7 +9,7 @@ public class InsertionSort extends Sort {
             int key = data.get(i);
             int j = i - 1;
 
-            // move elements greater than key one postition ahead
+            // move elements greater than key one position ahead
             while (j >= 0 && data.get(j) > key) {
                 data.set(j + 1, data.get(j));
                 j = j - 1;

@@ -21,9 +21,6 @@ public class ReverseQueue {
 // Place elements into Queue
 
     public static void main(String[] args) {
-        //Object[] numbers1 = new Integer[]{1, 4, 5, 8};
-        //QueueManager qNums1 = new QueueManager("num1", numbers1);
-
         //creating queue
         Queue queue = new Queue<Integer>();
         queue.add(1);

@@ -21,6 +21,7 @@ class Menu {
     this.replit = replit;
   }
 
+  // getters
   public String getTitle() {
     return title;
   }
@@ -31,6 +32,7 @@ class Menu {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    // creation of a hashmap with the key value pairs (key: title, value: main method for the classes)
     Map<Integer, Menu> menu = new HashMap<>();
     menu.put(0, new Menu("Int By Reference", () -> IntByReference.main(null)));
     menu.put(1, new Menu("Matrix", () -> Matrix.main(null)));
