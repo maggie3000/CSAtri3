@@ -89,6 +89,10 @@ This page outlines my plan for studying for the AP Exam. I will target the topic
 #### 4/28
 - [ ] watch [AP live review 8](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
 #### 4/29
+- [ ] look at the concepts that I am struggling on
+       - type casting
+       - math function
+       - boolean logic
 
 ### Week 7
 #### 5/2
