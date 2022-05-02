@@ -1,6 +1,7 @@
 {% include navigation.html %}
 
 # AP Exam Study Guide
+4.3 daily video 3
 
 ## Notes By Topic
 
@@ -114,9 +115,68 @@ isAdult = ad;
         System.out.println("On your next birthday, you will be" + age + ".");
     }
     ```
+- if-else statements
+    - two-way selection
+- if-else-if statements
+    - multi-way selection
+- dangling else
+    - "else" belongs to the closest "if"
+    ```
+    if (a > 30)
+        if (a < 60)
+            System.out.println("???");
+        else
+            System.out.println("!!!");
+    ```
+    - adding brackets will bring else to belong to the first "if"
+    ```
+    if (a > 30)
+    {
+        if (a < 60)
+            System.out.println("???");
+        else
+            System.out.println("!!!");
+    }
+    ```
+- logical boolean operators
+    - `&&` → "and"
+    - `!` → "not"
+    - `||` → "or"
+- **De-Morgan's Laws**
+- `!(a && b)` → `(!a || !b)`
+    - the "&&" flips to "||"
+    - "not(a and b)" becomes "(not a) or (not b)"
+- `!(a || b)` → `(!a && !b)`
+- "not" flips the relational operators
+    - `!(x > 0)` → `(x <= 0)`
+    - `!(x == 0)` → `(x != 0)`
+    - `!(x != 0)` → `(x == 0)`
+- examples:
+    - solve: `!(x < -5 || x > 10)`
+        - step 1: `(!(x < -5) && !(x > 10))`
+        - step 2: `(x >= -5 && x <= 10)`
+    - find equivalent expression: `(x && !y)`
+        - step 1: `!(x || !y)`
+        - step 2: `!(!x || y)`
+- **truth table**
+    - True and True = True
+    - False and False = False
+    - True and False = False
+    - True or False = True
+    - False or True = True
 
 ## UNIT 4: Iteration
-- "for" loops and "while" loops
+- "while" loops
+- "for" loops
+    - intialization
+    - boolean expression
+    - update
+```
+for (int value = 2; value < 100; value *= 2)
+{
+System.out.print(value + " ");
+}
+```
 
 ## UNIT 5: Writing Classes
 Object:
