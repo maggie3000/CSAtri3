@@ -164,6 +164,7 @@ isAdult = ad;
     - True and False = False
     - True or False = True
     - False or True = True
+    - False or False = False
 
 ## UNIT 4: Iteration
 - "while" loops
