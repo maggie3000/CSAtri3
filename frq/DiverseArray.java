@@ -3,48 +3,51 @@ Maggie Killada
 AP CSA 2015 FRQ #1
 */
 
-package src;
+package frq;
 
-public class DiverseArray {
-    public static int arraySum(int[] arr) {
-        int sum = 0;    // sum initializer
+public class DiverseArray{
 
-        // enhanced for loop as values are needed, not index
-        for (int num : arr) {
-            sum += num;
-            System.out.print(num + "\t");  // debug
+    /** Returns the sum of the entries in the one-dimensional array arr.
+     */
+    public static int arraySum(int[] arr){
+        int sum = 0;
+        for (int i = 0; i <= 4; i++) {
+            sum = sum + arr[i];
         }
-
         return sum;
     }
 
+    /** Returns a one-dimensional array in which the entry at index k is the sum of
+     * the entries of row k of the two-dimensional array arr2D.
+     */
     public static int[] rowSums(int[][] arr2D) {
-        int rows = arr2D.length;        // remember arrays have length
-        int[] sumList = new int[rows];  // size of sumList is based on rows
-
-        // conventional for loop as index used for sumList
-        for (int i = 0; i < rows; i++) {
-            sumList[i] = arraySum(arr2D[i]);
-            System.out.println("= \t" + sumList[i]);  // debug
+        int rowSum = 0;
+        int[] rowSumArr = new int[arr2D.length];
+        for (int r = 0; r < arr2D.length; r++) {
+            for (int c = 0; c < arr2D[r].length; c++) {
+                rowSum = rowSum + arr2D[r][c];
+            }
+            rowSumArr[r] = rowSum;
+            rowSum = 0;
         }
-
-        return sumList;
+        return rowSumArr;
     }
 
-   public static boolean isDiverse(int[][] arr2D) {
-       int [] sums = rowSums(arr2D);
-       int sumsLength = sums.length;
-
-       // ij loop, two indexes needed in evaluation, similar to bubble sort iteration
-       for(int i = 0; i < sumsLength - 1; i++) {
-           for (int j = i + 1; j < sumsLength; j++) {
-               if (sums[i] == sums[j]) {
-                   return false;    // leave as soon as you find duplicate
-               }
-           }
-       }
-       return true; // all diverse checks have been made
-   }
+    /** Returns true if all rows in arr2D have different row sums;
+     * false otherwise.
+     */
+    public static boolean isDiverse(int[][] arr2D) {
+        boolean currentDiverse = true;
+        int[] resultArr = rowSums(arr2D);
+        for (int i = 0; i < resultArr.length; i++) {
+            for (int j = i + 1; j < resultArr.length; j++) {
+                if (resultArr[i] == resultArr[j]) {
+                    currentDiverse = false;
+                }
+            }
+        }
+        return currentDiverse;
+    }
 
     public static void main(String[] args) {
         int[][] mat1 = {
@@ -59,10 +62,10 @@ public class DiverseArray {
                 { 8, 11, 10, 2, 5 },                     // row 3
                 { 3, 2, 3, 0, 6 }                        // row 4
         };
-
         System.out.println("Mat1 Diverse: " + isDiverse(mat1));
         System.out.println();
         System.out.println("Mat2 Diverse: " + isDiverse(mat2));
     }
 
 }
+
