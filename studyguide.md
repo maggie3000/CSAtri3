@@ -96,7 +96,7 @@ isAdult = ad;
 ## UNIT 3: Boolean Expressions and if Statements
 - Comparison of string objects must be handled using string methods NOT using boolean expressions
     - `.equal` is to set equal to
-    - `.compareTo` is to compare to string objects
+    - **`.compareTo` is to compare to string objects**
 - `<` → less than
 - `>` → greater than
 - `<=` → less than or equal to
