@@ -355,3 +355,6 @@ All Array and 2D array questions will have similar patterns...
 5. Same array comparisons (two indexes), bubble sort like adjacent comparison
                 for(int i = 0; i < sumsLength - 1; i++) {  // observe minus
                     for (int j = i + 1; j < sumsLength; j++) { // observe j = i + 1, to offset comparisons
+                                                       
+### Tokenize Numbers
+divide (/) by 10 to give quotient and modulus (%) by 10 to give remainder which is the last digit
