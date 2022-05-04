@@ -358,3 +358,14 @@ All Array and 2D array questions will have similar patterns...
                                                        
 ### Tokenize Numbers
 divide (/) by 10 to give quotient and modulus (%) by 10 to give remainder which is the last digit
+```
+public int findSum(int num){
+int sum = 0;
+while (num >0){
+sum += num % 10;
+num /= 10;
+}
+return sum;
+```
+### Math.Random hacks
+int value = (int) (Math.random()*{range+1}) + {starting interval value}
